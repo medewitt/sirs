@@ -58,8 +58,9 @@ const SIRSModel = () => {
         <div className="flex justify-center space-x-4">
           <div className="w-full max-w-md space-y-4">
             <div>
+              
               <label className="block text-sm font-medium mb-1">
-                R₀ (Basic Reproduction Number)
+                <p>R₀ (Basic Reproduction Number)</p>
               </label>
               <input
                 type="number"
@@ -74,7 +75,7 @@ const SIRSModel = () => {
             
             <div>
               <label className="block text-sm font-medium mb-1">
-                γ (Recovery Rate - per day)
+                <p>γ (Recovery Rate - per day)</p>
               </label>
               <input
                 type="number"
@@ -90,7 +91,7 @@ const SIRSModel = () => {
             
             <div>
               <label className="block text-sm font-medium mb-1">
-                Immunity Duration (days)
+                <p>Immunity Duration (days)</p>
               </label>
               <input
                 type="number"
@@ -105,7 +106,7 @@ const SIRSModel = () => {
             
             <div>
               <label className="block text-sm font-medium mb-1">
-                Simulation Duration (days)
+                <p>Simulation Duration (days)</p>
               </label>
               <input
                 type="number"
