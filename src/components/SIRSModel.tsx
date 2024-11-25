@@ -60,7 +60,7 @@ const SIRSModel = () => {
             <div>
               
               <label className="block text-sm font-medium mb-1">
-                <p>R₀ (Basic Reproduction Number)</p>
+                R₀ (Basic Reproduction Number)
               </label>
               <input
                 type="number"
@@ -75,7 +75,7 @@ const SIRSModel = () => {
             
             <div>
               <label className="block text-sm font-medium mb-1">
-                <p>γ (Recovery Rate - per day)</p>
+                γ (Recovery Rate - per day)
               </label>
               <input
                 type="number"
@@ -91,7 +91,7 @@ const SIRSModel = () => {
             
             <div>
               <label className="block text-sm font-medium mb-1">
-                <p>Immunity Duration (days)</p>
+                Immunity Duration (days)
               </label>
               <input
                 type="number"
@@ -106,7 +106,7 @@ const SIRSModel = () => {
             
             <div>
               <label className="block text-sm font-medium mb-1">
-                <p>Simulation Duration (days)</p>
+                Simulation Duration (days)
               </label>
               <input
                 type="number"
@@ -159,6 +159,7 @@ const SIRSModel = () => {
             </LineChart>
           </div>
         </div>
+        <br />
       </div>
     </div>
   );
