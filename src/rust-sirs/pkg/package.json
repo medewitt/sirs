@@ -1,0 +1,15 @@
+{
+  "name": "rust-sirs",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rust_sirs_bg.wasm",
+    "rust_sirs.js",
+    "rust_sirs.d.ts"
+  ],
+  "main": "rust_sirs.js",
+  "types": "rust_sirs.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
